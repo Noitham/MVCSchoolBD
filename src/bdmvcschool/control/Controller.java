@@ -26,9 +26,9 @@ public class Controller {
 
     /**
      * Method calling Model method for listing all groups.
-     * 
+     *
      * uses {@link bdmvcschool.model.Model#listAllGroups() }
-     * 
+     *
      */
     public void listAllGroups() {
         model.listAllGroups();
@@ -36,11 +36,12 @@ public class Controller {
 
     /**
      * Method calling Model method for creating a new group.
-     * 
-     * uses {@link bdmvcschool.model.Model#createNewGroup(bdmvcschool.model.Group) }
+     *
+     * uses {@link bdmvcschool.model.Model#createNewGroup(bdmvcschool.model.Group)
+     * }
      *
      * @param group to add
-     * 
+     *
      */
     public void createNewGroup(Group group) {
         model.createNewGroup(group);
@@ -48,8 +49,9 @@ public class Controller {
 
     /**
      * Method calling Model method for modifying a existing group.
-     * 
-     * uses {@link bdmvcschool.model.Model#modifyGroup(bdmvcschool.model.Group) }
+     *
+     * uses {@link bdmvcschool.model.Model#modifyGroup(bdmvcschool.model.Group)
+     * }
      *
      * @param group to modify
      */
@@ -59,9 +61,10 @@ public class Controller {
 
     /**
      * Method calling Model method for removing a existing group.
-     * 
-     * uses {@link bdmvcschool.model.Model#deleteGroup(bdmvcschool.model.Group) }
-     * 
+     *
+     * uses {@link bdmvcschool.model.Model#deleteGroup(bdmvcschool.model.Group)
+     * }
+     *
      *
      * @param group to be modified
      */
@@ -71,7 +74,7 @@ public class Controller {
 
     /**
      * Method calling Model method listing all students.
-     * 
+     *
      * uses {@link bdmvcschool.model.Model#listAllStudents() }
      */
     public void listAllStudents() {
@@ -80,8 +83,9 @@ public class Controller {
 
     /**
      * Method calling Model method for listing all students in a group.
-     * 
-     * uses {@link bdmvcschool.model.Model#listAllStudentsInAGroup(bdmvcschool.model.Group) }
+     *
+     * uses {@link bdmvcschool.model.Model#listAllStudentsInAGroup(bdmvcschool.model.Group)
+     * }
      *
      * @param group to be searched
      */
@@ -91,8 +95,9 @@ public class Controller {
 
     /**
      * Method calling Model method for creating a new student.
-     * 
-     * uses {@link bdmvcschool.model.Model#createNewStudent(bdmvcschool.model.Student) }
+     *
+     * uses {@link bdmvcschool.model.Model#createNewStudent(bdmvcschool.model.Student)
+     * }
      *
      * @param student to add
      */
@@ -102,8 +107,9 @@ public class Controller {
 
     /**
      * Method calling Model method for modifying a existing student.
-     * 
-     * uses {@link bdmvcschool.model.Model#modifyStudent(bdmvcschool.model.Student) }
+     *
+     * uses {@link bdmvcschool.model.Model#modifyStudent(bdmvcschool.model.Student)
+     * }
      *
      * @param student to add
      */
@@ -113,8 +119,9 @@ public class Controller {
 
     /**
      * Method calling Model method for removing a existing student.
-     * 
-     * uses {@link bdmvcschool.model.Model#deleteStudent(bdmvcschool.model.Student) }
+     *
+     * uses {@link bdmvcschool.model.Model#deleteStudent(bdmvcschool.model.Student)
+     * }
      *
      * @param student to add
      */
@@ -124,8 +131,9 @@ public class Controller {
 
     /**
      * Method calling Model method for enrolling a existing student in a group.
-     * 
-     * uses {@link bdmvcschool.model.Model#enrollStudentInGroup(bdmvcschool.model.Student, bdmvcschool.model.Group) }
+     *
+     * uses {@link bdmvcschool.model.Model#enrollStudentInGroup(bdmvcschool.model.Student, bdmvcschool.model.Group)
+     * }
      *
      * @param student to add
      * @param group where we'll add the student
@@ -137,14 +145,24 @@ public class Controller {
     /**
      * Method calling Model method for unenrolling a existing student from a
      * group.
-     * 
-     * uses {@link bdmvcschool.model.Model#unEnrollStudentInGroup(bdmvcschool.model.Student, bdmvcschool.model.Group) }
+     *
+     * uses {@link bdmvcschool.model.Model#unEnrollStudentInGroup(bdmvcschool.model.Student, bdmvcschool.model.Group)
+     * }
      *
      * @param student to add
      * @param group where we'll add the student
      */
     public void unEnrollStudentInGroup(Student student, Group group) {
         model.unEnrollStudentInGroup(student, group);
+    }
+    
+    
+    /**
+     * Search group by code.
+     * @param id 
+     */
+    public void searchGroupById(String id) {
+
     }
 
 }

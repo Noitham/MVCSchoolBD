@@ -45,22 +45,19 @@ public class Model extends Observable {
     }
 
     // Methods to manage data.
-    
     /**
-     * Method for listing all groups.
-     * This method will be called by the controller.
-     * It will manipulate the data, and return it to the view, which
+     * Method for listing all groups. This method will be called by the
+     * controller. It will manipulate the data, and return it to the view, which
      * will be the one that will show it to the user.
-     * 
+     *
      */
     public void listAllGroups() {
 
     }
 
     /**
-     * Method for creating a new group.
-     * This method will be called by the controller.
-     * It will manipulate the data, and return it to the view, which
+     * Method for creating a new group. This method will be called by the
+     * controller. It will manipulate the data, and return it to the view, which
      * will be the one that will show it to the user.
      *
      * @param group to add
@@ -70,9 +67,8 @@ public class Model extends Observable {
     }
 
     /**
-     * Method for modifying a existing group.
-     * This method will be called by the controller.
-     * It will manipulate the data, and return it to the view, which
+     * Method for modifying a existing group. This method will be called by the
+     * controller. It will manipulate the data, and return it to the view, which
      * will be the one that will show it to the user.
      *
      * @param group to be modified
@@ -82,21 +78,19 @@ public class Model extends Observable {
     }
 
     /**
-     * Method for removing an existing group.
-     * This method will be called by the controller.
-     * It will manipulate the data, and return it to the view, which
+     * Method for removing an existing group. This method will be called by the
+     * controller. It will manipulate the data, and return it to the view, which
      * will be the one that will show it to the user.
      *
      * @param group to modify
      */
     public void deleteGroup(Group group) {
-           
+
     }
 
     /**
-     * Method listing all students.
-     * This method will be called by the controller.
-     * It will manipulate the data, and return it to the view, which
+     * Method listing all students. This method will be called by the
+     * controller. It will manipulate the data, and return it to the view, which
      * will be the one that will show it to the user.
      */
     public void listAllStudents() {
@@ -104,10 +98,9 @@ public class Model extends Observable {
     }
 
     /**
-     * Method for listing all students in a group.
-     * This method will be called by the controller.
-     * It will manipulate the data, and return it to the view, which
-     * will be the one that will show it to the user.
+     * Method for listing all students in a group. This method will be called by
+     * the controller. It will manipulate the data, and return it to the view,
+     * which will be the one that will show it to the user.
      *
      * @param group to be searched
      */
@@ -116,9 +109,8 @@ public class Model extends Observable {
     }
 
     /**
-     * Method for creating a new student.
-     * This method will be called by the controller.
-     * It will manipulate the data, and return it to the view, which
+     * Method for creating a new student. This method will be called by the
+     * controller. It will manipulate the data, and return it to the view, which
      * will be the one that will show it to the user.
      *
      * @param student to add
@@ -128,10 +120,9 @@ public class Model extends Observable {
     }
 
     /**
-     * Method for modifying a existing student.
-     * This method will be called by the controller.
-     * It will manipulate the data, and return it to the view, which
-     * will be the one that will show it to the user.
+     * Method for modifying a existing student. This method will be called by
+     * the controller. It will manipulate the data, and return it to the view,
+     * which will be the one that will show it to the user.
      *
      * @param student to add
      */
@@ -140,9 +131,8 @@ public class Model extends Observable {
     }
 
     /**
-     * Method for removing a existing student.
-     * This method will be called by the controller.
-     * It will manipulate the data, and return it to the view, which
+     * Method for removing a existing student. This method will be called by the
+     * controller. It will manipulate the data, and return it to the view, which
      * will be the one that will show it to the user.
      *
      * @param student to add
@@ -152,10 +142,9 @@ public class Model extends Observable {
     }
 
     /**
-     * Method for enrolling a existing student in a group.
-     * This method will be called by the controller.
-     * It will manipulate the data, and return it to the view, which
-     * will be the one that will show it to the user.
+     * Method for enrolling a existing student in a group. This method will be
+     * called by the controller. It will manipulate the data, and return it to
+     * the view, which will be the one that will show it to the user.
      *
      * @param student to enroll
      * @param group where we'll add the student
@@ -165,15 +154,23 @@ public class Model extends Observable {
     }
 
     /**
-     * Method for unenrolling a existing student from a group.
-     * This method will be called by the controller.
-     * It will manipulate the data, and return it to the view, which
-     * will be the one that will show it to the user.
+     * Method for unenrolling a existing student from a group. This method will
+     * be called by the controller. It will manipulate the data, and return it
+     * to the view, which will be the one that will show it to the user.
      *
      * @param student to unenroll
      * @param group where we will unenroll student from
      */
     public void unEnrollStudentInGroup(Student student, Group group) {
+
+    }
+
+    /**
+     * Get a group given its code.
+     *
+     * @param g
+     */
+    public void findGroup(Group g) {
 
     }
 

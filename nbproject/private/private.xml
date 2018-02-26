@@ -2,6 +2,16 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/D:/Ciclo/Segundo/M06%20-%20Accés%20a%20dades/BDMVCSchool/src/bdmvcschool/model/Model.java</file>
+            <file>file:/D:/Ciclo/Segundo/M06%20-%20Accés%20a%20dades/BDMVCSchool/src/bdmvcschool/model/Group.java</file>
+            <file>file:/D:/Ciclo/Segundo/M06%20-%20Accés%20a%20dades/BDMVCSchool/src/bdmvcschool/model/persist/schoolbd.sql</file>
+            <file>file:/D:/Ciclo/Segundo/M06%20-%20Accés%20a%20dades/BDMVCSchool/src/bdmvcschool/view/View.java</file>
+            <file>file:/D:/Ciclo/Segundo/M06%20-%20Accés%20a%20dades/BDMVCSchool/src/bdmvcschool/model/Student.java</file>
+            <file>file:/D:/Ciclo/Segundo/M06%20-%20Accés%20a%20dades/BDMVCSchool/src/bdmvcschool/control/Controller.java</file>
+            <file>file:/D:/Ciclo/Segundo/M06%20-%20Accés%20a%20dades/BDMVCSchool/src/bdmvcschool/EventMessage.java</file>
+            <file>file:/D:/Ciclo/Segundo/M06%20-%20Accés%20a%20dades/BDMVCSchool/src/bdmvcschool/BDMVCSchool.java</file>
+            <file>file:/D:/Ciclo/Segundo/M06%20-%20Accés%20a%20dades/BDMVCSchool/src/bdmvcschool/model/persist/SQLInterface.java</file>
+        </group>
     </open-files>
 </project-private>

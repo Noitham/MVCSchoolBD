@@ -151,9 +151,9 @@ public class View implements Observer {
 
     /**
      * List all groups
-     * 
+     *
      * uses {@link bdmvcschool.control.Controller#listAllGroups() }
-     * 
+     *
      */
     public void listAllGroups() {
         control.listAllGroups();
@@ -164,9 +164,10 @@ public class View implements Observer {
      * will comprove that a group with the given id doesn't exists. If it does,
      * we will show error. If it doesn't, we will send the data to the
      * controller. Which will use model for creating the new group.
-     * 
-     * uses {@link bdmvcschool.control.Controller#createNewGroup(bdmvcschool.model.Group) }
-     * 
+     *
+     * uses {@link bdmvcschool.control.Controller#createNewGroup(bdmvcschool.model.Group)
+     * }
+     *
      */
     public void createNewGroup() {
         //model.createNewGroup(group);
@@ -177,9 +178,10 @@ public class View implements Observer {
      * exists, we will show it. If not, we will show error message. We will ask
      * for user for confirmation. If confirm, we will send the data to the
      * controller. Which will use the model for modifying the group.
-     * 
-     * uses {@link bdmvcschool.control.Controller#modifyGroup(bdmvcschool.model.Group) }
-     * 
+     *
+     * uses {@link bdmvcschool.control.Controller#modifyGroup(bdmvcschool.model.Group)
+     * }
+     *
      */
     public void modifyGroup() {
         //model.modifyGroup(group);
@@ -190,9 +192,10 @@ public class View implements Observer {
      * exists, we will show it. If not, we will show error message. We will ask
      * for user for confirmation. If confirm, we will send the data to the
      * controller. Which will use the model for removing the group.
-     * 
-     * uses {@link bdmvcschool.control.Controller#deleteGroup(bdmvcschool.model.Group) }
-     * 
+     *
+     * uses {@link bdmvcschool.control.Controller#deleteGroup(bdmvcschool.model.Group)
+     * }
+     *
      */
     public void deleteGroup() {
         //model.deleteGroup(id);
@@ -200,9 +203,9 @@ public class View implements Observer {
 
     /**
      * List all students
-     * 
+     *
      * uses {@link bdmvcschool.control.Controller#listAllStudents() }
-     * 
+     *
      */
     public void listAllStudents() {
         //model.listAllStudents();
@@ -214,9 +217,10 @@ public class View implements Observer {
      * error message. We will ask for user for confirmation. If confirm, we will
      * send the data to the controller. Which will use the model for modifying
      * the student.
-     * 
-     * uses {@link bdmvcschool.control.Controller#listAllStudentsInAGroup(bdmvcschool.model.Group) }
-     * 
+     *
+     * uses {@link bdmvcschool.control.Controller#listAllStudentsInAGroup(bdmvcschool.model.Group)
+     * }
+     *
      */
     public void listAllStudentsInAGroup() {
         //model.listAllStudentsInAGroup(id);
@@ -227,9 +231,10 @@ public class View implements Observer {
      * will comprove that a student with the given id doesn't exists. If it
      * does, we will show error, if it doesn't, we will send the data to the
      * controller. Which will use model for creating the new student.
-     * 
-     * uses {@link bdmvcschool.control.Controller#createNewStudent(bdmvcschool.model.Student) }
-     * 
+     *
+     * uses {@link bdmvcschool.control.Controller#createNewStudent(bdmvcschool.model.Student)
+     * }
+     *
      */
     public void createNewStudent() {
         //model.createNewStudent();
@@ -240,9 +245,10 @@ public class View implements Observer {
      * exists, we will show it. If not, we will show error message. We will ask
      * for user for confirmation. If confirm, we will send the data to the
      * controller. Which will use the model for modifying the student.
-     * 
-     * uses {@link bdmvcschool.control.Controller#modifyStudent(bdmvcschool.model.Student) }
-     * 
+     *
+     * uses {@link bdmvcschool.control.Controller#modifyStudent(bdmvcschool.model.Student)
+     * }
+     *
      */
     public void modifyStudent() {
         //model.modifyStudent(student);
@@ -253,9 +259,10 @@ public class View implements Observer {
      * exists, we will show it. If not, we will show error message. We will ask
      * for user for confirmation. If confirm, we will send the data to the
      * controller. Which will use the model for removing the student.
-     * 
-     * uses {@link bdmvcschool.control.Controller#deleteStudent(bdmvcschool.model.Student) }
-     * 
+     *
+     * uses {@link bdmvcschool.control.Controller#deleteStudent(bdmvcschool.model.Student)
+     * }
+     *
      */
     public void deleteStudent() {
         //model.deleteStudent(student);
@@ -267,9 +274,10 @@ public class View implements Observer {
      * message. We will ask for user for confirmation. If confirm, we will send
      * the data to the controller. Which will use model for enrolling the
      * student to the group.
-     * 
-     * uses {@link bdmvcschool.control.Controller#enrollStudentInGroup(bdmvcschool.model.Student, bdmvcschool.model.Group) }
-     * 
+     *
+     * uses {@link bdmvcschool.control.Controller#enrollStudentInGroup(bdmvcschool.model.Student, bdmvcschool.model.Group)
+     * }
+     *
      */
     public void enrollStudentInGroup() {
         //model.enrollStudentInGroup(student);
@@ -281,19 +289,39 @@ public class View implements Observer {
      * message. We will ask for user for confirmation. If confirm, we will send
      * the data to the controller. Which will use model for unenrolling the
      * student to the group.
-     * 
-     * uses {@link bdmvcschool.control.Controller#unEnrollStudentInGroup(bdmvcschool.model.Student, bdmvcschool.model.Group) }
-     * 
+     *
+     * uses {@link bdmvcschool.control.Controller#unEnrollStudentInGroup(bdmvcschool.model.Student, bdmvcschool.model.Group)
+     * }
+     *
      */
     public void unEnrollStudentInGroup() {
         //model.unEnrollStudentInGroup(student);
     }
 
+    /**
+     * Input new data student.
+     */
     public void studentForm() {
 
     }
 
+    /**
+     * Input new data group.
+     */
     public void groupForm() {
+
+    }
+
+    public void inputId(String input) {
+
+    }
+
+    /**
+     * Display group.
+     *
+     * @param group
+     */
+    public void displayGroup(List<Student> group) {
 
     }
 
